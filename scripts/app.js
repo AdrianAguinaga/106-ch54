@@ -1,16 +1,22 @@
-function sayHello(){
-    console.log("Hello");
+function saveTask()
+{
+    console.log('saving task');
+    //get values
+
+    //build an object
+
+    //save to server
+
+    //display the data recieved from server
 }
 
 function init(){
-    let a = "new";
-    console.log("hello world!");
-    sayHi("Adrian");
-    sayHello();
-}
-function sayHi(name){
-    console.log("hi "+ name)
+    console.log('init');
+    //load data
+
+    //hook events
+    $("#btnSave").click(saveTask);
 }
 
-winwow.onload = init;
+window.onload = init;
 //Variable Scope
